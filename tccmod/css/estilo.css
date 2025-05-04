@@ -1,0 +1,115 @@
+.home {
+	background: #9CB6D2;
+	color: black;
+}
+.caixa {
+	padding: 60px 0px;
+	margin-bottom: 1px solid #e5e5e5;
+}
+footer p a {
+	margin: 5px 15px;
+}
+
+/* ocultar os formularis de cadastro */
+.ocultar {
+	display: none !important;
+	pointer-events: none;
+}
+
+/* Corrige o hover dos itens do dropdown para manter fundo e texto na tela de pefil */
+.dropdown-menu.bg-dark .dropdown-item {
+	color: white;
+  }
+  
+  .dropdown-menu.bg-dark .dropdown-item:hover {
+	background-color: #1a1a1a; /* ou outra cor escura */
+	
+  }
+
+  .sidebar {
+	height: 100vh;
+  }
+  .content-section {
+	display: none;
+  }
+  .content-section.active {
+	display: block;
+  }
+
+/* ------------------- ESTILOS EXCLUSIVOS PARA A TELA DE CURRÍCULO ------------------- */
+
+#curriculo {
+	background-color: #000;
+	color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+  }
+  
+  /* Abas do currículo */
+  #curriculo .nav-tabs .nav-link {
+	background-color: #1a1a1a;
+	color: #fff;
+	border: none;
+	margin-right: 5px;
+  }
+  
+  #curriculo .nav-tabs .nav-link.active {
+	background-color: #343a40;
+	color: #fff;
+	font-weight: bold;
+  }
+  
+  /* Conteúdo das abas */
+  #curriculo .tab-pane {
+	margin-top: 10px;
+  }
+  
+  /* Inputs com fundo branco, texto preto e acessibilidade */
+  #curriculo input,
+  #curriculo textarea,
+  #curriculo select {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 8px;
+  }
+  
+  /* Placeholder preto */
+  #curriculo ::placeholder {
+	color: #000;
+	opacity: 1;
+  }
+  
+  /* Validação com triângulo vermelho */
+  #curriculo .is-invalid {
+	border-color: red;
+	position: relative;
+  }
+  
+  #curriculo .is-invalid::after {
+	content: "▲";
+	color: red;
+	font-size: 1rem;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+  }
+  
+  /* Botão de salvar com destaque */
+  #curriculo .btn-salvar {
+	background-color: #28a745;
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	margin-top: 10px;
+  }
+  
+  #curriculo .btn-salvar:hover {
+	background-color: #218838;
+  }
+
+
+  
+  
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <link rel="stylesheet" href="styles.css">
+    <title>DevClub Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div  class="container d-flex 
+      justify-content-center align-items-center vh-100">
+        <div class=" card  p-4 shadow- bg-dark text-white  w-100" style="max-width: 400px;"">
+
+             <form action="">
+           
+            <h3>Login</h3>
+            <div class="input-box">
+                <input placeholder="Usuário" type="email"
+                 class="form-control bg-white text-black border-light" required>
+                <i class="bx bxs-user"></i>
+            </div>
+
+            <div class="input-box">
+                <input placeholder="Senha" type="password"
+                 class="form-control bg-white text-black border-light" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+
+            <div class="remember-forgot">
+                <label for="">
+                    <input type="checkbox">
+                    Lembrar senha
+                </label>
+                <a href="#">Esqueci a senha</a>
+            </div>
+
+            <button onclick="perfil()" type="submit" class="login">Login</button>
+
+            <div class="register-link">
+                <p>Não tem uma conta? <a onclick="cadastrar()"  href="#">Cadastre-se</a></p>
+            </div>
+
+            </form>
+        </div>
+    </div>
+    <script src="../script/script.js"></script>    
+</body>
+</html>
