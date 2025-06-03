@@ -1,7 +1,7 @@
 <?php
 $servidor = "localhost";  // Host local
 $usuario = "root";        // Usuário padrão do XAMPP
-$senha = "";              // Sem senha (a não ser que você tenha colocado)
+$senha = "250616Av";              // Sem senha (a não ser que você tenha colocado)
 $banco = "conect"; // Altere para o nome do banco que você criou no phpMyAdmin
 
 // Conectar
