@@ -84,7 +84,7 @@ session_start();
                 <div class="col-md-6 d-flex">
                     <div class="align-self-center">
                         <h2>Por que devo usar essa plataforma?</h2>
-                        <p>Está em busca do primeiro passo para sua carreira? No [Nome do Seu Site], conectamos estudantes a oportunidades incríveis em empresas que valorizam talentos em formação!</p>
+                        <p>Está em busca do primeiro passo para sua carreira? No Connect.me, conectamos estudantes a oportunidades incríveis em empresas que valorizam talentos em formação!</p>
                         
                     </div>
                 </div>
