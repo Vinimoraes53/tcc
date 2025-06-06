@@ -115,7 +115,7 @@ if(!isset($_SESSION['id_usuario']) || $_SESSION['tipo_usuario'] != 'empresa'){
               <a href="documentos.html" class="card bg-dark text-white shadow-sm border-light rounded-4" style="width: 70%;">
                 <div class="card-body">
                   <h5 class="card-title"><i class="bi bi-file-earmark-excel me-2"></i>Documentos Pendentes</h5>
-                  <p class="card-text display-6"><?php echo $documentos_penentes; ?></p>
+                  <p class="card-text display-6"><?php echo $documentos_pendentes; ?></p>
                 </div>
               </a>
             </div>
