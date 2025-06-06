@@ -1,0 +1,70 @@
+Listagem de caminhos de pasta para o volume OS
+O número de série do volume é 2256-7538
+C:.
+¦   .DS_Store
+¦   conect.sql
+¦   estrutura.txt
+¦   
++---.vscode
+¦       launch.json
+¦       
++---cadastrar
+¦       cadastrar.php
+¦       
++---css
+¦       estilo.css
+¦       estilo_tela_vagas.css
+¦       
++---img
+¦       .DS_Store
+¦       capa-mulher.png
+¦       economize.png
+¦       facil.png
+¦       juros.png
+¦       logo.png
+¦       saiba.png
+¦       suporte.png
+¦       
++---index.html
+¦       index.php
+¦       
++---perfil
+¦       aluno.php
+¦       empresa.php
+¦       instituicao.php
+¦       wmpresa.html
+¦       
++---php
+¦       cadastrarEstagiarios.php
+¦       cadastrarVagas.php
+¦       cadastro.php
+¦       cardTotalVagas.php
+¦       cardVagasPendentes.php
+¦       dashboard.php
+¦       db.php
+¦       editarVagas.php
+¦       excluirVagas.php
+¦       listarVagas.php
+¦       login.php
+¦       tabelaVagas.php
+¦       teste.php
+¦       VagasDisponiveis.php
+¦       
++---script
+¦       script.js
+¦       
++---tela_inicial
+¦       .DS_Store
+¦       index.php
+¦       vagas.php
+¦       
++---tela_login
+    ¦   index.php
+    ¦   styles.css
+    ¦   
+    +---.vscode
+    ¦       settings.json
+    ¦       
+    +---img
+            img.jpg
+            
